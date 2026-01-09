@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  background: #050505;
+}
+
+/* Typography */
+.h1 {
+  @apply text-5xl md:text-7xl font-bold tracking-tight text-white;
+  text-shadow: 
+    0 0 20px rgba(0, 0, 0, 0.9),
+    0 0 40px rgba(0, 0, 0, 0.7),
+    0 0 60px rgba(0, 0, 0, 0.5),
+    0 2px 4px rgba(0, 0, 0, 0.8);
+}
+.h2 {
+  @apply text-3xl md:text-5xl font-bold tracking-tight text-white;
+  text-shadow: 
+    0 0 15px rgba(0, 0, 0, 0.9),
+    0 0 30px rgba(0, 0, 0, 0.7),
+    0 0 45px rgba(0, 0, 0, 0.5),
+    0 2px 4px rgba(0, 0, 0, 0.8);
+}
+.p {
+  @apply text-base md:text-lg text-white font-medium leading-relaxed;
+  text-shadow: 
+    0 0 10px rgba(0, 0, 0, 0.9),
+    0 0 20px rgba(0, 0, 0, 0.7),
+    0 1px 3px rgba(0, 0, 0, 0.8);
+  -webkit-text-stroke: 0.3px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.01em;
+}
+
+/* Loader */
+.loader {
+  @apply h-10 w-10 rounded-full border-2 border-white/20 border-t-white/80 animate-spin;
+}
