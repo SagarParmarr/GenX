@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 export const metadata: Metadata = {
   title: "GenX — Pure Sound",
   description: "Scrollytelling landing for GenX headphones",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({

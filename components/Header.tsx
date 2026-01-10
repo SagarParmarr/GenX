@@ -2,6 +2,7 @@
 
 import { motion, useScroll } from "framer-motion";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -87,10 +88,17 @@ export default function Header() {
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
-          className="cursor-pointer"
+          className="cursor-pointer flex items-center gap-3"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         >
-          <h1 className="text-2xl font-bold tracking-tighter">
+          <Image 
+            src="/logo.svg" 
+            alt="GenX Logo" 
+            width={40} 
+            height={40}
+            className="w-8 h-8 md:w-10 md:h-10"
+          />
+          <h1 className="text-xl md:text-2xl font-bold tracking-tighter">
             <span className="bg-gradient-to-r from-white to-white/60 bg-clip-text text-transparent">GenX</span>
           </h1>
         </motion.div>

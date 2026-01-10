@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -38,9 +39,18 @@ export default function Footer() {
         <motion.div variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true }} className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-16">
           {/* Brand Section */}
           <motion.div variants={itemVariants} className="col-span-2 md:col-span-1">
-            <h3 className="text-2xl font-bold mb-4">
-              <span className="bg-gradient-to-r from-white to-white/60 bg-clip-text text-transparent">GenX</span>
-            </h3>
+            <div className="flex items-center gap-3 mb-4">
+              <Image 
+                src="/logo.svg" 
+                alt="GenX Logo" 
+                width={48} 
+                height={48}
+                className="w-12 h-12"
+              />
+              <h3 className="text-2xl font-bold">
+                <span className="bg-gradient-to-r from-white to-white/60 bg-clip-text text-transparent">GenX</span>
+              </h3>
+            </div>
             <p className="text-sm text-white/60 leading-relaxed">Redefining the future of personal audio through precision engineering and uncompromising sound quality.</p>
           </motion.div>
 
