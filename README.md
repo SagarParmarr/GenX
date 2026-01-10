@@ -9,7 +9,7 @@
 
 **A production-ready, high-performance product landing page featuring scroll-driven storytelling**
 
-[Live Demo](xyz.varcel.com) · [View Source Code](https://github.com/sagarparmarr/genx)
+[Live Demo](https://genx-v1.vercel.app/) · [View Source Code](https://github.com/sagarparmarr/genx)
 
 </div>
 
