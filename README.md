@@ -81,9 +81,8 @@ Preconnect + CORS are already handled in the template.
 - Framer Motion
 - HTML5 Canvas (GPU accelerated)
 
-## License
-
-MIT
+## 📄 License
+This project is licensed under the MIT License.
 
 ---
 
