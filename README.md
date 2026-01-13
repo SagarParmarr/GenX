@@ -10,7 +10,7 @@
 
 **Production-ready scroll-driven storytelling using image sequence animation**
 
-[Live Demo](https://genx-v1.vercel.app/) · [Source Code](https://github.com/sagarparmarr/genx) · [In-depth Blog Post →](https://your-hashnode-blog-link.hashnode.dev/image-sequence-optimization)
+[Live Demo](https://genx-v1.vercel.app/) · [Source Code](https://github.com/sagarparmarr/genx) · [In-depth Blog Post →](https://sagarparmarr.hashnode.dev/genx-from-childhood-flipbooks-to-premium-scroll-animation)
 
 </div>
 
